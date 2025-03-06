@@ -1,3 +1,5 @@
+import socket
+import configparser
 #conversa continua
 # Carregar configurações do arquivo
 config = configparser.ConfigParser()
