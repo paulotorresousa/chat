@@ -1,3 +1,5 @@
+import socket
+import configparser
 #versão conversa contínua
 # Carregar configurações do arquivo
 config = configparser.ConfigParser()
