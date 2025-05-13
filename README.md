@@ -1,6 +1,6 @@
 # 💬 Chat em Python (Cliente-Servidor)
 
-Este projeto é uma implementação simples de um sistema de chat cliente-servidor, feito em Python, com foco educacional. Ele demonstra conceitos fundamentais de comunicação em rede, como sockets, troca de mensagens e estrutura cliente/servidor.
+Este projeto é uma implementação simples de um sistema de **chat cliente-servidor**, feito em Python, com foco educacional. Ele demonstra conceitos fundamentais de comunicação em rede, como sockets, troca de mensagens e estrutura cliente/servidor.
 
 ---
 
@@ -16,42 +16,59 @@ Desenvolver uma aplicação de chat local para entender:
 
 ## 🚀 Como Executar
 
-1. Clone o repositório:
+1. **Clone o repositório:**
 
 ```bash
 git clone https://github.com/paulotorresousa/chat.git
 cd chat
-Execute o servidor:
+````
 
-  python3 servidor.py
+2. **Execute o servidor:**
 
-Em outro terminal, execute o cliente:
+```bash
+python3 servidor.py
+```
 
-  python3 cliente.py
+3. **Em outro terminal, execute o cliente:**
 
-Você pode abrir múltiplos terminais com cliente.py para simular vários usuários.
+```bash
+python3 cliente.py
+```
 
-⚙️ Tecnologias e Conceitos
-🐍 Python 
+> Você pode abrir múltiplos terminais com `cliente.py` para simular vários usuários.
 
-📡 Sockets TCP
+---
 
-🧠 Programação concorrente (com threads ou select, se aplicável)
+## ⚙️ Tecnologias e Conceitos
 
-🔐 Conceitos básicos de segurança em redes (validação, portas, mensagens)
+* 🐍 Python 
+* 📡 Sockets TCP
+* 🧠 Programação concorrente (com threads ou select, se aplicável)
+* 🔐 Conceitos básicos de segurança em redes (validação, portas, mensagens)
 
-🧠 Aplicações em Cibersegurança
+---
+
+## 🧠 Aplicações em Cibersegurança
+
 Embora seja um projeto educacional, ele permite:
 
-Entender como ocorrem trocas de mensagens em rede
+* Entender **como ocorrem trocas de mensagens em rede**
+* Simular **captura de tráfego** para treinar análise com ferramentas como Wireshark
+* Identificar **potenciais vulnerabilidades** em comunicações inseguras
+* Explorar conceitos de autenticação, criptografia e controle de acesso (em versões futuras)
 
-Simular captura de tráfego para treinar análise com ferramentas como Wireshark
+---
 
-Identificar potenciais vulnerabilidades em comunicações inseguras
+## 👨‍💻 Autor
 
+[Paulo Torres de Sousa](https://www.linkedin.com/in/paulotorresousa)
 
-👨‍💻 Autor
-Paulo Torres de Sousa
+---
 
-📄 Licença
+## 📄 Licença
+
 Este projeto é de livre uso para fins de aprendizado e experimentação.
+
+````
+
+
